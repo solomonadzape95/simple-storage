@@ -13,7 +13,7 @@ contract SimpleStorage {
     // adding a number to the square braces shows the lenght of the array
     Person[] public listOfPeople;
     // Person public victor = Person({favNumber : 7, name :"Victor"});
-    // Person public grave = Personhg(avNumber : 909, name :"Grace"});
+    // Person public grave = Personhg({avNumber : 909, name :"Grace"});
 
     function store(uint256 _favoriteNumber) public{
         favoriteNumber = _favoriteNumber;
@@ -29,5 +29,3 @@ listOfPeople.push( Person(_favoriteNumber, _name));
     }
     //0xd9145CCE52D386f254917e481eB44e9943F39138
 }
-
-
